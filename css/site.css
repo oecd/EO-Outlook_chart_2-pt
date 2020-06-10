@@ -1133,3 +1133,13 @@ div.tooltip {
 .connector,.note-line{
   stroke-width: 2px;
 }
+
+  
+@media only screen and (max-width: 500px) {
+
+.explanatory{
+      font-size: 0.7rem;
+
+}
+  
+}

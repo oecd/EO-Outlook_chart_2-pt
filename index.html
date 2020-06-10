@@ -78,7 +78,7 @@
     }
     else{
         height = 290;//height = width;
-        lagText = 10;
+        lagText = 1;
     }
 
 
@@ -298,7 +298,7 @@
                 .attr("y", function (d) { height })
                 .attr("class", "explanatory")
                 .transition().delay(500).duration(500)
-                .text("A linha azul mostra nossas previsões com apenas um episódio da COVID-19")
+                .text("A linha roxa mostra nossas previsões com apenas um episódio da COVID-19")
                 .transition().delay(5500).duration(200).remove()
 
         } 
